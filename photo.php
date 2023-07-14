@@ -16,12 +16,14 @@
     header("Cache-Control: no-cache");
     header("Pragma: no-cache");
   ?>
-  <menu>
-    <li><button id="bt_start"><img src="asset/img/photo.png" alt="Prendre en photo"/></button></li>
-    <li><button id="bt_upload" value="<?php echo $_GET['id']; ?>"><img src="asset/img/upload.png" alt="Télécharger"/></button></li>
-  </menu>
+  
     <video id="video">Video stream not available.</video>
-      
+    <p>
+      <button id="bt_start"><img src="asset/img/photo.png" alt="Prendre en photo"/></button>
+      <button id="bt_upload" value="<?php echo $_GET['id']; ?>"><img src="asset/img/upload.png" alt="Télécharger"/></button>
+    </p>
     <canvas id="canvas"> </canvas>
+    
+    
 </body>
 </html>
