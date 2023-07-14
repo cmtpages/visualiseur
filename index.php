@@ -3,10 +3,10 @@
 <head>
 	<title>Caméra document</title>
 	
-	<link rel="stylesheet" href="css/design.css">
+	<link rel="stylesheet" href="asset/css/design.css">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-	<script src="qrcode.min.js"></script>
+	<script src="asset/js/qrcode.min.js"></script>
 </head>
 
 <body>

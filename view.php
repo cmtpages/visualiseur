@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<link rel="stylesheet" href="css/design.css">
+	<link rel="stylesheet" href="asset/css/design.css">
 	
-	<script src="./rotate_img.js">
+	<script src="asset/js/rotate_img.js">
 	
 	</script>
 	
@@ -20,9 +20,9 @@
 <?php $id = $_GET['id']; ?>
 <menu>
 	<li><a href="view.php?id=<?php echo $id; ?>">
-		<img class="button_view" src="refresh.png" alt="Actualiser" />
+		<img class="button_view" src="asset/img/refresh.png" alt="Actualiser" />
 	</a></li>
-	<li><img class="button_view" src="rotate2.png" alt="Tourner l'image" onclick="rotate90()" /></li>
+	<li><img class="button_view" src="asset/img/rotate2.png" alt="Tourner l'image" onclick="rotate90()" /></li>
 </menu>
 
 <?php if(!file_exists('uploads/'.$id.'.png')) { ?>
