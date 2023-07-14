@@ -58,12 +58,7 @@ Copyright 2023 Clément PAGÈS
 		unlink($img_path); 	?>
 			
 		<img id="photo_actuelle" src="data:image/jpg;base64,<?php echo $base64; ?>">'
-		
-		
-	<!-- 	<img id="photo_actuelle" src="<?php echo $img_path.'?'.filemtime($img_path); ?>" alt="Image à projeter"> -->
 	<?php } ?>
-	
-	<?php include('footer.html'); ?>
 </body>
 </html>
 

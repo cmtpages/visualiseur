@@ -42,7 +42,5 @@ Copyright 2023 Clément PAGÈS
     <button id="bt_upload" value="<?php echo $_GET['id']; ?>"><img src="asset/img/upload.png" alt="Télécharger"/></button>
   </p>
   <canvas id="canvas"> </canvas>
-    
-  <?php include('footer.html'); ?>
 </body>
 </html>

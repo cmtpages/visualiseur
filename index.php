@@ -39,7 +39,6 @@ Copyright 2023 Clément PAGÈS
 ?>
 <h1>Accueil</h1>
 <h2>Prise de vue (avec un portable)</h2>
-<a href="photo.php?id=<?php echo $id; ?>">Prise de vue</a>
 <p>Scanner le QRcode avec votre téléphone pour pouvoir prendre des photos.</p>
 <div class="cadre" id="qrcode"></div>
 <script>
@@ -50,6 +49,8 @@ Copyright 2023 Clément PAGÈS
 
 <h2>Projection (avec un ordinateur)</h2>
 <p class="cadre">Sur cet ordinateur, cliquez ici : <a href="view.php?id=<?php echo $id; ?>">projeter l'image</a></p>
+
+<p>Les photos sont supprimées immédiatement après avoir été affichées ; elles ne sont pas réutilisées.</p>
 
 <?php include('footer.html'); ?>
 </body>
