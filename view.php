@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<link rel="stylesheet" href="css/design.css">
+	
 	<title>Caméra document</title>
 </head>
 
@@ -19,7 +21,7 @@
 <?php }
 else {
 	$img_path = 'uploads/'.$id.'.png'; ?>
-	<img src="<?php echo $img_path.'?'.filemtime($img_path); ?>" alt="Image à projeter">
+	<img class="photo_actuelle" src="<?php echo $img_path.'?'.filemtime($img_path); ?>" alt="Image à projeter">
 <?php } ?>
 
 </body>

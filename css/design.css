@@ -24,3 +24,10 @@ div {
 p.cadre {
 	font-size: 2em;
 }
+
+img.photo_actuelle{
+	max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+	position: relative;
+}
