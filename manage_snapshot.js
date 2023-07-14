@@ -3,7 +3,7 @@
   // width to the value defined here, but the height will be
   // calculated based on the aspect ratio of the input stream.
 
-  const width = 320; // We will scale the photo width to this
+  const width = 1024; // We will scale the photo width to this
   let height = 0; // This will be computed based on the input stream
 
   // |streaming| indicates whether or not we're currently streaming
@@ -44,7 +44,15 @@
     startbutton = document.getElementById("bt_start");
 
     navigator.mediaDevices
-      .getUserMedia({audio: false, video: {facingMode: "environment"}})
+      .getUserMedia({
+            video: {
+                facingMode: "environment",
+                width: { min: 1024, ideal: 1280, max: 1920 },
+				height: { min: 576, ideal: 720, max: 1080 }
+				//height: { min: affmin, ideal: affideal, max: affmax }
+            },
+            audio: false
+        })
       .then((stream) => {
         video.srcObject = stream;
         video.play();
