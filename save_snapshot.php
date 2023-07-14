@@ -9,11 +9,9 @@
 	$data = base64_decode($img);
 	$file = 'uploads/'.$id.'.png';
 	
-	echo($file);
-	
 	if (file_put_contents($file, $data)) {
-	echo $_POST['id']."Photo sauvegardée.";
+	echo "Photo sauvegardée.";
 	} else {
-	echo $_POST['id']."La photo n'a pas pu être sauvegardée.";
+	echo "La photo n'a pas pu être sauvegardée.";
 	}
 ?>

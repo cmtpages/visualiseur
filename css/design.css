@@ -50,7 +50,7 @@ menu {
 	width: 150px;
 }
 
-img.button_view {
+.button_view {
 	display: inline-block;
 	padding: 15px;
 }

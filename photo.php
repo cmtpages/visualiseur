@@ -15,13 +15,12 @@
     header("Pragma: no-cache");
   ?>
   <h1>Prise de photo</h1>
-  
-    <div class="camera">
-      <video id="video">Video stream not available.</video>
-      <button id="bt_start">Take photo</button>
-      <button id="bt_upload" value="<?php echo $_GET['id']; ?>">Upload</button>
-    </div>
+  <p>
+        <button id="bt_start"><img src="photo.png" alt="Prendre en photo"/></button>
+        <button id="bt_upload" value="<?php echo $_GET['id']; ?>"><img src="upload.png" alt="Télécharger"/></button>
+      </p>
+    <video id="video">Video stream not available.</video>
+      
     <canvas id="canvas"> </canvas>
-
 </body>
 </html>
