@@ -31,11 +31,10 @@ p.cadre {
 }
 
 img#photo_actuelle{
-/*	max-width: 100%;
-    max-height: 100%;*/
+	max-width: 100%;
+    max-height: 100%;
     z-index: -1;
-	position: absolute;
-	left: 200px;
+	position: relative;
 	top: 0px;
 	-webkit-transform:rotate( var(--turn) );
 	-moz-transform: rotate( var(--turn) );
