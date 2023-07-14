@@ -25,9 +25,32 @@ p.cadre {
 	font-size: 2em;
 }
 
-img.photo_actuelle{
+:root {
+  --turn : 0deg;
+}
+
+img#photo_actuelle{
 	max-width: 100%;
     max-height: 100%;
     z-index: -1;
-	position: relative;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	-webkit-transform:rotate( var(--turn) );
+	-moz-transform: rotate( var(--turn) );
+	-ms-transform: rotate( var(--turn) );
+	-o-transform: rotate( var(--turn) );
+	transform: rotate( var(--turn) );
+}
+
+
+menu {
+	left: 15px;
+	padding: 0;
+	width: 150px;
+}
+
+img.button_view {
+	display: inline-block;
+	padding: 15px;
 }
