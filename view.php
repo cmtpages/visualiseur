@@ -25,13 +25,13 @@
 	<li><img class="button_view" src="rotate2.png" alt="Tourner l'image" onclick="rotate90()" /></li>
 </menu>
 
-<div class="test"><?php if(!file_exists('uploads/'.$id.'.png')) { ?>
+<?php if(!file_exists('uploads/'.$id.'.png')) { ?>
 	<p>Aucune photo pour le moment.</p>
 <?php }
 else {
 	$img_path = 'uploads/'.$id.'.png'; ?>
 	<img id="photo_actuelle" src="<?php echo $img_path.'?'.filemtime($img_path); ?>" alt="Image à projeter">	
-<?php } ?></div>
+<?php } ?>
 
 </body>
 </html>
