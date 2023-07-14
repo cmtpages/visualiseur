@@ -29,8 +29,18 @@
 	<p>Aucune photo pour le moment.</p>
 <?php }
 else {
-	$img_path = 'uploads/'.$id.'.png'; ?>
-	<img id="photo_actuelle" src="<?php echo $img_path.'?'.filemtime($img_path); ?>" alt="Image à projeter">	
+	$img_path = 'uploads/'.$id.'.png'; 
+	
+	// Copie l'image dans une variable pour effacer celle enregistrée en dur
+	// sans perdre l'affichage.
+	$contents = file_get_contents($img_path);
+	$base64 = base64_encode($contents);
+	unlink($img_path); 	?>
+		
+	<img id="photo_actuelle" src="data:image/jpg;base64,<?php echo $base64; ?>">'
+	
+	
+<!-- 	<img id="photo_actuelle" src="<?php echo $img_path.'?'.filemtime($img_path); ?>" alt="Image à projeter"> -->
 <?php } ?>
 
 </body>
