@@ -21,7 +21,7 @@ Copyright 2023 Clément PAGÈS
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Caméra document</title>
+	<title>Visualiseur</title>
 
 	<link rel="stylesheet" href="asset/css/design.css">
 
@@ -37,7 +37,7 @@ Copyright 2023 Clément PAGÈS
 
 	$id=uniqid("", false); // Génère d'id de la session et le nom de la photo
 ?>
-<h1>Accueil</h1>
+<h1>Visualiseur de documents</h1>
 <h2>Prise de vue (avec un portable)</h2>
 <p>Scanner le QRcode avec votre téléphone pour pouvoir prendre des photos.</p>
 <div class="cadre" id="qrcode"></div>

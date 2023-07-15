@@ -27,7 +27,7 @@ Copyright 2023 Clément PAGÈS
 	
 	</script>
 	
-	<title>Caméra document</title>
+	<title>Visualiseur</title>
 </head>
 
 <body>
@@ -37,8 +37,6 @@ Copyright 2023 Clément PAGÈS
 		header("Pragma: no-cache");
 		
 		session_start();
-		
-// 		print_r($_SESSION);
 	?>
 	<?php $id = $_GET['id']; ?>
 	<menu>

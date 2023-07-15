@@ -21,7 +21,7 @@ Copyright 2023 Clément PAGÈS
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>Caméra document</title>
+  <title>Visualiseur</title>
 
   <link rel="stylesheet" href="asset/css/design.css">
 
