@@ -18,6 +18,10 @@ body {
     background-color: #f7f7f7;
 }
 
+.contents_800 {
+	width: 800px;
+	margin: auto;
+}
 /* *********************** */
 
 :root {
@@ -53,6 +57,10 @@ canvas#canvas {
 	left: 200px;
 }
 
+.align-left {
+	text-align: left;
+}
+
 p.cadre {
 	font-size: 2em;
 }
@@ -69,6 +77,19 @@ footer {
 	margin-right: auto;
 }
 
+dl {
+	display: grid;
+	grid-template-columns: max-content auto;
+}
+
+dt {
+	font-weight: bold;
+	margin-left: 20px;
+}
+figcaption {
+	font-size: 11px;
+	color: #555;
+}
 h1 {
 	font-size: 2.6rem;
 	line-height: 50px;
@@ -91,6 +112,13 @@ h2 {
 	font-size: 2rem;
 }
 
+h3 {
+	color: #520d35;
+	font-size: 1.4rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
 img#photo_actuelle{
 	max-width: 100%;
     max-height: 100%;
@@ -102,6 +130,12 @@ img#photo_actuelle{
 	-ms-transform: rotate( var(--turn) );
 	-o-transform: rotate( var(--turn) );
 	transform: rotate( var(--turn) );
+}
+
+img.img_border {
+	padding: 5px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
 }
 
 menu {
