@@ -1,0 +1,19 @@
+site_name: Visualiseur de documents
+site_url: https://prof.cpages.org/visualiseur
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+nav:
+    - 'Accueil': index.md
+    - 'Fonctionnalités': fonctionnalites.md
+    - 'Documentation technique':
+        - 'Arborescence': technique/arborescence.md
+        - 'Frontend':
+            - accueil.php: technique/frontend/accueil.md
+            - photo.php: technique/frontend/photo.md
+            - view.php: technique/frontend/view.md
+        - 'Backend':
+            - manage_snapshot.js: technique/backend/manage_snapshot.md
+            - save_snapshot.php: technique/backend/save_snapshot.md
