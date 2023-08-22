@@ -12,3 +12,47 @@
 * Le dossier `uploads/` contient les photos envoyées sur le serveur.
 * `asset/css/` et `asset/img/` contiennent respectivement les feuilles de style et les images statiques utilisées.
 * `asset/js` contient quelques fichiers Javascript : `qrcode.min.js` pour générer des QR-Codes et `rotate_img.js` qui fait tourner une image d'un quart de tour.
+
+
+```
+.
+├── asset/
+│   ├── css/
+│   │   └── design.css
+│   ├── img/
+│   │   ├── photo.png
+│   │   ├── refresh.png
+│   │   ├── rotate2.png
+│   │   ├── tuto_accueil.png
+│   │   ├── tuto_autorisation.jpg
+│   │   ├── tuto_priseDeVue.jpg
+│   │   ├── tuto_projection.png
+│   │   └── upload.png
+│   └── js
+│       ├── qrcode.min.js
+│       └── rotate_img.js
+├── COPYING
+├── docs/
+│   ├── docs/
+│   │   ├── fonctionnalites.md
+│   │   ├── index.md
+│   │   └── technique/
+│   │       ├── arborescence.md
+│   │       ├── backend/
+│   │       │   ├── manage_snapshot.md
+│   │       │   └── save_snapshot.md
+│   │       └── frontend/
+│   │           ├── accueil.md
+│   │           ├── photo.md
+│   │           └── view.md
+│   ├── mkdocs.yml
+├── footer.html
+├── index.php
+├── manage_snapshot.js
+├── photo.php
+├── README.md
+├── save_snapshot.php
+├── tuto.php
+├── uploads/
+└── view.php
+```
