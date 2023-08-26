@@ -7,8 +7,6 @@ Cette page gère accès à l'appareil photo du *smartphone* et permet la prise d
 header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
 header("Cache-Control: no-cache");
 header("Pragma: no-cache");
-
-$id=uniqid("", false); // Génère l'id de la session et le nom de la photo
 ```
 
 Ces lignes empêchent la mise en cache des données, pour forcer le rechargement des images en cas de session multiple. Ces lignes sont présentes sur toutes les pages du *frontend*.

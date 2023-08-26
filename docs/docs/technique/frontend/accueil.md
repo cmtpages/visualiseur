@@ -11,6 +11,15 @@ header("Pragma: no-cache");
 
 Ces lignes empêchent la mise en cache des données, pour forcer le rechargement des images en cas de session multiple. Ces lignes sont présentes sur toutes les pages du *frontend*.
 
+## La variable `$id`
+La ligne 
+``` php
+$id=uniqid("", false); // Génère l'id de la session et le nom de la photo
+```
+crée la variable `$id`, qui permet d'identifier une session. La valeur de cette variable est ensuite passée à la page `photo.php` (cf. [la documentation afférente](photo.md)) et à la page `view.php` (cf. [la documentation afférente](view.md)).
+
+Elle servira de nom pour la photo enregistrée et permettra de relier le *smartphone* à l'ordinateur pour projeter.
+
 ## Le QR-Code
 ``` js 
 <div class="cadre" id="qrcode"></div>

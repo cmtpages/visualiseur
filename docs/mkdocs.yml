@@ -1,7 +1,6 @@
 site_name: Visualiseur de documents
 site_url: https://prof.cpages.org/visualiseur
 repo_url: https://github.com/cmtpages/visualiseur
-edit_uri: '#docs/'
 theme:
   name: readthedocs
   highlightjs: true
@@ -10,7 +9,8 @@ theme:
 nav:
     - 'Accueil': index.md
     - 'Documentation fonctionnelle':
-        - 'Fonctionnalités': fonctionnalites.md
+        - 'Fonctionnalités': fonctionnelle/fonctionnalites.md
+        - 'Installation': fonctionnelle/installation.md
     - 'Documentation technique':
         - 'Arborescence': technique/arborescence.md
         - 'Frontend':
