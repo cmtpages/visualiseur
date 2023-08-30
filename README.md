@@ -11,7 +11,7 @@ D'après un travail d'Arnaud Durand, https://www.mathix.org/macamdoc/
 1.0, 2023/07/14
 
 # Licence
-CC BY-NC-SA 2.0 FR https://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode
+CC BY-NC-SA 4.0 FR https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr
 
 # Contact
 - Author : Clément PAGÈS
