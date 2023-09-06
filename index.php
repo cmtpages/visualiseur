@@ -14,7 +14,8 @@ Licence  CC BY-NC-SA 4.0 FR https://creativecommons.org/licenses/by-nc-sa/4.0/de
 	<title>Visualiseur</title>
 
 	<link rel="stylesheet" href="asset/css/design.css">
-
+	<link rel="icon" type="image/x-icon" href="asset/img/favicon.png">
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 	<script src="asset/js/qrcode.min.js"></script>
 </head>

@@ -12,6 +12,7 @@ Licence  CC BY-NC-SA 4.0 FR https://creativecommons.org/licenses/by-nc-sa/4.0/de
 <html lang="fr">
 <head>
 	<link rel="stylesheet" href="asset/css/design.css">
+	<link rel="icon" type="image/x-icon" href="asset/img/favicon.png">
 	
 	<script src="asset/js/rotate_img.js">
 	
